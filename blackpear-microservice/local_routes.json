@@ -1,0 +1,12 @@
+[
+  {
+    "path": "ripple-cdr-blackpear",
+    "module": "/opt/qewd/mapped/modules/ripple-cdr-blackpear",
+    "errors": {
+      "notfound": {
+        "text": "Resource Not Recognised",
+        "statusCode": 404
+      }
+    }
+  }
+]

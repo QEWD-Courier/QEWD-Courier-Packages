@@ -1,0 +1,24 @@
+{
+  "composer": {
+    "value": "=> getRef(asserter.reference, 'name.text')"
+  },
+  "host": "BlackPear",
+  "uid": "Condition_{{id}}",
+  "patientId": "{{nhsNumber}}",
+  "dateCreated": "=> fhirDateTime(dateAsserted)",
+  "problems_and_issues": {
+    "problem_diagnosis": {
+      "problem_diagnosis_name": {
+        "value": "{{code.coding[1].display}}",
+        "code": "{{code.coding[1].code}}",
+        "terminology": "{{code.coding[1].system}}"
+      },
+      "date_time_of_onset": {
+        "value": "=> fhirDateTime(dateAsserted)"
+      },
+      "clinical_description": {
+        "value": "{{code.text}}"
+      }
+    }
+  }
+}

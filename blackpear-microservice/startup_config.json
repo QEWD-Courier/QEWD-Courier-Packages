@@ -1,0 +1,6 @@
+{
+  "managementPassword": "R!ppl$",
+  "serverName": "Endeavour BlackPear MicroService Server",
+  "port": 8080,
+  "poolSize": 3
+}
