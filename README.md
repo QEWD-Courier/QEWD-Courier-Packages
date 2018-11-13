@@ -1,2 +1,2 @@
-# Ripple-QEWD-Transforms
-repo for collection of transforms available to/ used by the Ripple QEWD middleware
+# QEWD-Courier-Packages
+repo for collection of microservices/transforms available to/ used by the QEWD-Courier middleware
